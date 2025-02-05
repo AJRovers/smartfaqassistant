@@ -1,7 +1,6 @@
 import ast
 import pandas as pd
 import streamlit as st
-import cosine_similarity
 from openai.embeddings_utils import cosine_similarity
 import openai
 import plotly.express as px
