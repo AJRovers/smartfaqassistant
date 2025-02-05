@@ -64,7 +64,7 @@ import numpy as np
 import openai
 import ast
 import json
-from sklearn.metrics.pairwise import cosine_similarity
+from openai.embeddings_utils import cosine_similarity
 
 # Load the dataset (assuming it's a CSV)
 df = pd.read_csv("qa_dataset_with_embeddings.csv")
