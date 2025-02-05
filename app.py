@@ -1,3 +1,4 @@
+import openai
 import pandas as pd
 import ast
 from openai.embeddings_utils import cosine_similarity
