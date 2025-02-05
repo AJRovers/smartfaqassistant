@@ -1,9 +1,17 @@
 import ast
 import pandas as pd
 import streamlit as st
+import cosine_similarity
 from openai.embeddings_utils import cosine_similarity
 import openai
 import plotly.express as px
+from typing import List, Optional                                                                                                              
+import matplotlib.pyplot as plt                                         
+import plotly.express as px                                             
+from scipy import spatial                                               
+from sklearn.decomposition import PCA                                   
+from sklearn.manifold import TSNE      
+
 
 # Set your OpenAI API key
 openai.api_key = st.secrets["mykey"] 
