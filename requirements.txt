@@ -1,1 +1,6 @@
 openai==0.28
+pandas
+matplotlib
+scipy
+plotly
+scikit-learn
